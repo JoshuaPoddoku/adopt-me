@@ -1,0 +1,33 @@
+{
+  "name": "adopt-me",
+  "version": "1.0.0",
+  "description": "Pet adopting website using pure react",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.htm",
+    "format": "prettier \"src/**/*.{js, html}\" --write",
+    "lint": "eslint \"src/**/* .{js, jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshuaPoddoku/adopt-me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoshuaPoddoku/adopt-me/issues"
+  },
+  "homepage": "https://github.com/JoshuaPoddoku/adopt-me#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.1"
+  },
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
